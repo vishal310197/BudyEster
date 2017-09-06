@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BudyEster</string>
+    <string name="local_service_stopped" />
+</resources>

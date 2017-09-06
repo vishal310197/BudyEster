@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.budyester.AddFriend">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="44dp"
+        android:text="Friend's Username"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/newfriendusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/username"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addfriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/newfriendusername"
+        android:layout_alignStart="@+id/newfriendusername"
+        android:layout_centerVertical="true"
+        android:text="ADD"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/addfriend"
+        android:layout_marginLeft="94dp"
+        android:layout_marginStart="94dp"
+        android:layout_toEndOf="@+id/addfriend"
+        android:layout_toRightOf="@+id/addfriend"
+        android:text="Cancel"
+        android:textSize="18sp" />
+</RelativeLayout>
